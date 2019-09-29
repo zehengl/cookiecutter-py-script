@@ -1,0 +1,11 @@
+{
+  "autoDocstring.docstringFormat": "google",
+  "editor.formatOnSave": true,
+  "editor.rulers": [88, 120],
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "python.formatting.blackPath": "black",
+  "python.formatting.provider": "black",
+  "python.linting.pylintUseMinimalCheckers": false
+}
