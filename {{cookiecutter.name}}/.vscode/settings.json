@@ -7,5 +7,7 @@
   "files.trimTrailingWhitespace": true,
   "python.formatting.blackPath": "black",
   "python.formatting.provider": "black",
-  "python.linting.pylintUseMinimalCheckers": false
+  "python.linting.pylintPath": "pylint",
+  "python.linting.pylintUseMinimalCheckers": false,
+  "workbench.iconTheme": "vscode-icons"
 }
