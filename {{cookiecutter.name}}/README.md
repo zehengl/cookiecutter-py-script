@@ -4,4 +4,7 @@
 
 ## Install
 
+Use `pip install -r requirements-dev.txt` for development.
+It will install `pylint`, `black`, and `jupyter` to enable linting, auto-formatting, and notebook experience.
+
 ## Usage
