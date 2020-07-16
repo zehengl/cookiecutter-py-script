@@ -9,5 +9,6 @@
   "python.formatting.provider": "black",
   "python.linting.pylintPath": "pylint",
   "python.linting.pylintUseMinimalCheckers": false,
+  "workbench.colorTheme": "Nord",
   "workbench.iconTheme": "vscode-icons"
 }
