@@ -15,10 +15,4 @@ It will install `pylint`, `black`, and `jupyter` to enable linting, auto-formatt
 
 ## Usage
 
-<hr>
-
-<sup>
-
 ## Credits
-
-</sup>
