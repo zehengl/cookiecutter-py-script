@@ -1,5 +1,7 @@
 {
   "name": "cookiecutter-py-script",
+  "enable_jupyterlab": ["yes", "no"],
+  "running_on_windows": ["yes", "no"],
   "description": null,
   "img": null
 }

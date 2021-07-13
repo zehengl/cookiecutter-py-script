@@ -1,4 +1,6 @@
 -r requirements.txt
 black==21.6b0
+{%- if cookiecutter.enable_jupyterlab == "yes" %}
 jupyterlab==3.0.16
+{%- endif %}
 pylint==2.9.3
