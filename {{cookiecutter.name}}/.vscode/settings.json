@@ -11,5 +11,8 @@
   "python.linting.pylintUseMinimalCheckers": false,
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Oceanic Next (dimmed bg)",
-  "workbench.productIconTheme": "material-product-icons"
+  "workbench.productIconTheme": "material-product-icons",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  }
 }
