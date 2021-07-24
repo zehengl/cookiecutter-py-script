@@ -1,5 +1,8 @@
 import subprocess
 
-subprocess.call(['git', 'init'])
-subprocess.call(['git', 'add', '*'])
-subprocess.call(['git', 'commit', '-m', 'initial commit from gh:zehengl/cookiecutter-py-script'])
+
+message = "initial commit from gh:zehengl/cookiecutter-py-script"
+
+subprocess.call(["git", "init"])
+subprocess.call(["git", "add", "*"])
+subprocess.call(["git", "commit", "-m", message])

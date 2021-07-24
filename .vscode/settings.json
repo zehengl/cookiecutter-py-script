@@ -4,6 +4,8 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "python.formatting.blackPath": "black",
+  "python.formatting.provider": "black",
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Oceanic Next (dimmed bg)",
   "workbench.productIconTheme": "material-product-icons"

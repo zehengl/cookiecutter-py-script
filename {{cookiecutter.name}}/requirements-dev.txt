@@ -3,4 +3,4 @@ black==21.7b0
 {%- if cookiecutter.enable_jupyterlab == "yes" %}
 jupyterlab==3.0.16
 {%- endif %}
-pylint==2.9.3
+pylint==2.9.5
