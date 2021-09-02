@@ -1,7 +1,7 @@
 -r requirements.txt
 black==21.8b0
 {%- if cookiecutter.enable_jupyterlab == "yes" %}
-jupyterlab==3.1.9
+jupyterlab==3.1.10
 {%- endif %}
 pip-check-updates==0.5.0
 pylint==2.10.2
