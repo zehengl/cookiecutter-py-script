@@ -27,4 +27,13 @@ It will also install `jupyterlab` for notebook experience.
 
 ## Usage
 
+{%- if cookiecutter.writing_docs == "yes" %}
+
+## Docs
+
+    mkdocs build
+    mkdocs serve
+
+{%- endif %}
+
 ## Credits

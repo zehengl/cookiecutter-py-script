@@ -3,6 +3,7 @@
   "enable_jupyterlab": ["yes", "no"],
   "running_eda": ["yes", "no"],
   "running_on_windows": ["yes", "no"],
+  "writing_docs": ["no", "yes"],
   "description": null,
   "img": null
 }

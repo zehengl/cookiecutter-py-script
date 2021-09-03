@@ -1,2 +1,5 @@
 __pycache__
+{%- if cookiecutter.writing_docs == "yes" %}
+site
+{%- endif %}
 venv

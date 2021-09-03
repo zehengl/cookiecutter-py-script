@@ -3,5 +3,8 @@ black==21.8b0
 {%- if cookiecutter.enable_jupyterlab == "yes" %}
 jupyterlab==3.1.10
 {%- endif %}
+{%- if cookiecutter.writing_docs == "yes" %}
+mkdocs==1.2.2
+{%- endif %}
 pip-check-updates==0.5.0
 pylint==2.10.2
