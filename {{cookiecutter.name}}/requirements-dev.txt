@@ -1,7 +1,7 @@
 -r requirements.txt
 black==21.9b0
 {%- if cookiecutter.enable_jupyterlab == "yes" %}
-jupyterlab==3.1.13
+jupyterlab==3.1.14
 {%- endif %}
 {%- if cookiecutter.writing_docs == "yes" %}
 mkdocs==1.2.2
