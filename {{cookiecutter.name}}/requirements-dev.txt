@@ -6,5 +6,5 @@ jupyterlab==3.2.0
 {%- if cookiecutter.writing_docs == "yes" %}
 mkdocs==1.2.2
 {%- endif %}
-pip-check-updates==0.5.0
+pip-check-updates==0.6.0
 pylint==2.11.1
