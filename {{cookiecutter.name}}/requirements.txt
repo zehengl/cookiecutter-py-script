@@ -1,5 +1,5 @@
 {%- if cookiecutter.running_eda == "yes" -%}
-pandas==1.3.3
+pandas==1.3.4
 seaborn==0.11.2
 tqdm==4.62.3
 {%- endif %}
