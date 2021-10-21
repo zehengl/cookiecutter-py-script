@@ -4,7 +4,7 @@ black==21.9b0
 jupyterlab==3.2.0
 {%- endif %}
 {%- if cookiecutter.writing_docs == "yes" %}
-mkdocs==1.2.2
+mkdocs==1.2.3
 {%- endif %}
 pip-check-updates==0.6.0
 pylint==2.11.1
