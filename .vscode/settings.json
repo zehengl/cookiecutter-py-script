@@ -1,5 +1,6 @@
 {
   "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
   "editor.rulers": [88, 120],
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -8,5 +9,6 @@
   "python.formatting.provider": "black",
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Oceanic Next (dimmed bg)",
+  "workbench.editor.enablePreview": false,
   "workbench.productIconTheme": "material-product-icons"
 }
