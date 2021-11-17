@@ -1,5 +1,5 @@
 -r requirements.txt
-black==21.10b0
+black==21.11b0
 {%- if cookiecutter.enable_jupyterlab == "yes" %}
 jupyterlab==3.2.3
 {%- endif %}
