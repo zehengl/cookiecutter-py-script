@@ -7,4 +7,4 @@ jupyterlab==3.2.4
 mkdocs==1.2.3
 {%- endif %}
 pip-check-updates==0.6.1
-pylint==2.11.1
+pylint==2.12.1
