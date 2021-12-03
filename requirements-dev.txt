@@ -1,0 +1,3 @@
+black==21.11b1
+pip-check-updates==0.8.0
+pylint==2.12.2
