@@ -5,5 +5,7 @@
   "running_on_windows": ["yes", "no"],
   "writing_docs": ["no", "yes"],
   "description": null,
-  "img": null
+  "img": null,
+  "python": null,
+  "using_pyenv": ["yes", "no"]
 }

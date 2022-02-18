@@ -2,9 +2,13 @@ import os
 import shutil
 import subprocess
 
+folder = os.getcwd()
+
+if not "{{cookiecutter.using_pyenv}}" == "yes":
+    with open(os.path.join(folder, ".python-version"), "w") as f:
+        f.write("{{cookiecutter.python}}\n")
 
 if not "{{cookiecutter.writing_docs}}" == "yes":
-    folder = os.getcwd()
     shutil.rmtree(os.path.join(folder, "docs"))
     os.remove(os.path.join(folder, "mkdocs.yml"))
 
