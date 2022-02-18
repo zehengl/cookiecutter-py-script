@@ -8,6 +8,10 @@
 
 {{cookiecutter.description}}
 
+## Environment
+
+    - Python {{cookiecutter.python}}
+
 ## Install
 
     python -m venv venv
