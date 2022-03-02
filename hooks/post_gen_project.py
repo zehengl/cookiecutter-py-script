@@ -4,7 +4,7 @@ import subprocess
 
 folder = os.getcwd()
 
-if not "{{cookiecutter.using_pyenv}}" == "yes":
+if "{{cookiecutter.using_pyenv}}" == "yes":
     with open(os.path.join(folder, ".python-version"), "w") as f:
         f.write("{{cookiecutter.python}}\n")
 
