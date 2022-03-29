@@ -10,7 +10,7 @@
 
 ## Environment
 
-    - Python {{cookiecutter.python}}
+{% set python_versions = cookiecutter.python.split('.') %}- Python {{ python_versions[0] }}.{{ python_versions[1] }}
 
 ## Install
 
