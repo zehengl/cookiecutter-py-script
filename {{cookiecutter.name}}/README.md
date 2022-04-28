@@ -14,9 +14,9 @@
 
 ## Install
 
-    python -m venv venv
+    python -m venv .venv
     {%- if cookiecutter.running_on_windows == "yes" %}
-    .\venv\Scripts\activate
+    .\.venv\Scripts\activate
     {%- else %}
     source venv/bin/activate
     {%- endif %}
