@@ -2,4 +2,14 @@ site_name: {{cookiecutter.name}}
 nav:
   - Home: index.md
   - About: about.md
-theme: readthedocs
+theme:
+  name: material
+  font:
+    text: Roboto
+  features:
+    - header.autohide
+plugins:
+  - search
+  - tags
+  - git-revision-date-localized:
+      type: date
