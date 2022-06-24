@@ -35,7 +35,6 @@ It will also install `jupyterlab` for notebook experience.
 
 ## Docs
 
-    mkdocs build
     mkdocs serve
 
 {%- endif %}
