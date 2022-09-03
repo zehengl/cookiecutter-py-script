@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "0 12 * * 1"
 jobs:
   refreshDeps:
     runs-on: ubuntu-latest
