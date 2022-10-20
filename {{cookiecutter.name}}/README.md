@@ -12,7 +12,7 @@
 
 {% set python_versions = cookiecutter.python.split('.') %}- Python {{ python_versions[0] }}.{{ python_versions[1] }}
 
-## Install
+## Getting Started
 
     python -m venv .venv
     {%- if cookiecutter.running_on_windows == "yes" %}
@@ -28,8 +28,6 @@ It will install `pylint` and `black` to enable linting and auto-formatting.
 {%- if cookiecutter.enable_jupyterlab == "yes" %}
 It will also install `jupyterlab` for notebook experience.
 {%- endif %}
-
-## Usage
 
 {%- if cookiecutter.writing_docs == "yes" %}
 
