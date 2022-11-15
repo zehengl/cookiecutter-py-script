@@ -23,11 +23,7 @@
     python -m pip install -U pip
     pip install -r requirements.txt
 
-Use `pip install -r requirements-dev.txt` for development.
-It will install `pylint` and `black` to enable linting and auto-formatting.
-{%- if cookiecutter.enable_jupyterlab == "yes" %}
-It will also install `jupyterlab` for notebook experience.
-{%- endif %}
+> Use `pip install -r requirements-dev.txt` for development and docs.
 
 {%- if cookiecutter.writing_docs == "yes" %}
 

@@ -1,11 +1,9 @@
 {
   "name": "cookiecutter-py-script",
-  "enable_jupyterlab": ["yes", "no"],
-  "running_eda": ["yes", "no"],
-  "running_on_windows": ["yes", "no"],
-  "writing_docs": ["no", "yes"],
+  "python": null,
   "description": null,
   "img": null,
-  "python": null,
-  "using_pyenv": ["yes", "no"]
+  "running_eda": ["yes", "no"],
+  "running_on_windows": ["yes", "no"],
+  "writing_docs": ["no", "yes"]
 }
