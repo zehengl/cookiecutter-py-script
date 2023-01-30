@@ -1,10 +1,10 @@
 -r requirements.txt
 black==22.12.0
-jupyterlab==3.5.2
+jupyterlab==3.5.3
 {%- if cookiecutter.writing_docs == "yes" %}
 mkdocs-git-revision-date-localized-plugin==1.1.0
 mkdocs-glightbox==0.3.1
-mkdocs-material==9.0.6
+mkdocs-material==9.0.8
 mkdocs-minify-plugin==0.6.2
 mkdocs==1.4.2
 {%- endif %}
