@@ -23,7 +23,7 @@
     python -m pip install -U pip
     pip install -r requirements.txt
 
-> Use `pip install -r requirements-dev.txt` for development and docs.
+> Use `pip install -r requirements-dev.txt` for development{% if cookiecutter.writing_docs == "yes" %} and docs{% endif %}.
 
 {%- if cookiecutter.writing_docs == "yes" %}
 
