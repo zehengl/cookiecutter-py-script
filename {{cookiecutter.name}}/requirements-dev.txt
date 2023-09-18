@@ -1,9 +1,9 @@
 -r requirements.txt
-jupyterlab==4.0.5
+jupyterlab==4.0.6
 {%- if cookiecutter.writing_docs == "yes" %}
 mkdocs-git-revision-date-localized-plugin==1.2.0
 mkdocs-glightbox==0.3.4
-mkdocs-material==9.2.8
+mkdocs-material==9.3.1
 mkdocs-minify-plugin==0.7.1
 mkdocs==1.5.2
 {%- endif %}
