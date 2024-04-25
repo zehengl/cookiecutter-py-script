@@ -37,6 +37,7 @@ plugins:
       auto_caption: true
   - minify:
       minify_html: true
+      minify_css: true
   - neoteroi.contribs
 markdown_extensions:
   - attr_list
