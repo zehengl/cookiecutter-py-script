@@ -38,6 +38,8 @@ plugins:
   - minify:
       minify_html: true
       minify_css: true
+      css_files:
+        - css/neoteroi-mkdocs.css
   - neoteroi.contribs
 markdown_extensions:
   - attr_list
