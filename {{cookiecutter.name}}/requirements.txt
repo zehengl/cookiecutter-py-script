@@ -1,7 +1,7 @@
 {%- if cookiecutter.running_eda == "yes" -%}
 pandas==2.2.3
 seaborn==0.13.2
-tqdm==4.67.0
+tqdm==4.67.1
 {%- endif %}
 {% if cookiecutter.using_dotenv == "yes" -%}
 python-dotenv==1.0.1
