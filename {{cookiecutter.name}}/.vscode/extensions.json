@@ -4,6 +4,7 @@
     "eamodio.gitlens",
     "esbenp.prettier-vscode",
     "ms-python.black-formatter",
+    "ms-python.isort",
     "ms-python.pylint",
     "ms-python.python",
     "ms-vscode.wordcount",
