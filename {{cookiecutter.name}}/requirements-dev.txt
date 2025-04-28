@@ -1,10 +1,10 @@
 -r requirements.txt
-jupyterlab==4.4.0
+jupyterlab==4.4.1
 {%- if cookiecutter.writing_docs == "yes" %}
 mkdocs-glightbox==0.4.0
 mkdocs-material==9.6.12
 mkdocs-minify-plugin==0.8.0
 mkdocs==1.6.1
-neoteroi-mkdocs==1.1.1
+neoteroi-mkdocs==1.1.2
 {%- endif %}
 pip-check-updates==0.27.0
