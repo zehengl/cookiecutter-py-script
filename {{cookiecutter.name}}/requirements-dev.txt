@@ -2,7 +2,7 @@
 jupyterlab==4.4.9
 {%- if cookiecutter.writing_docs == "yes" %}
 mkdocs-glightbox==0.5.1
-mkdocs-material==9.6.21
+mkdocs-material==9.6.22
 mkdocs-minify-plugin==0.8.0
 mkdocs==1.6.1
 neoteroi-mkdocs==1.1.3
