@@ -2,7 +2,6 @@
   "name": "cookiecutter-py-script",
   "python": null,
   "description": null,
-  "img": null,
   "running_eda": ["yes", "no"],
   "running_on_windows": ["yes", "no"],
   "using_dotenv": ["yes", "no"],
