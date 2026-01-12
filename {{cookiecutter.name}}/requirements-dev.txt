@@ -1,5 +1,5 @@
 -r requirements.txt
-jupyterlab==4.5.1
+jupyterlab==4.5.2
 {%- if cookiecutter.writing_docs == "yes" %}
 mkdocs-glightbox==0.5.2
 mkdocs-material==9.7.1
