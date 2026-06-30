@@ -1,1 +1,1 @@
-pip-check-updates==0.28.0
+pip-check-updates==0.29.0
