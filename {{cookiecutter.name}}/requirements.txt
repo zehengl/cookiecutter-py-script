@@ -4,5 +4,5 @@ seaborn==0.13.2
 tqdm==4.70.1
 {%- endif %}
 {% if cookiecutter.using_dotenv == "yes" -%}
-python-dotenv==1.2.3
+python-dotenv==1.2.4
 {%- endif %}
